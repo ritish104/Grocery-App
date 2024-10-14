@@ -1,0 +1,136 @@
+
+.landing-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #ffecd2;
+    padding: 50px;
+  }
+  
+  h1 {
+    color: #FF7900;
+    font-size: 2.5rem; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3476F0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #2856d0;
+  }
+  
+  .offers {
+    margin: 20px;
+  }
+  
+  .offer-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    header {
+      padding: 40px;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  
+    .offer-cards {
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .card {
+      width: 180px;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    header {
+      padding: 30px;
+    }
+  
+    button {
+      font-size: 0.85rem;
+      padding: 7px 15px;
+    }
+  
+    .offers {
+      margin: 10px;
+    }
+  
+    .offer-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 80%;
+      max-width: 300px;
+      margin-bottom: 10px;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    header {
+      padding: 20px;
+    }
+  
+    button {
+      font-size: 0.8rem;
+      padding: 5px 12px;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+  

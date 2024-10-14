@@ -1,0 +1,24 @@
+/* src/components/ProductDetailsPage.css */
+.product-details-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .product-image {
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    text-align: left;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #FF7900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
